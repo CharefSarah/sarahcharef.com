@@ -127,5 +127,36 @@
         margin-right: 3rem;
 
     }
+    .about__infos h3 {
+      font-size: 25px;
+        margin-left: 3rem;
+      
+      }
+ 
 
+    .about__infos:before {
+        position: absolute;
+        content: '';
+        height: 100%;
+        width: 4px;
+        left: 0;
+        bottom: 0;
+        background-color: var(--clr_font_accent);
+        border-top: #15151F 28px solid ;
+
+    
+       
+      }
+
+      
+      
+      
+      .about__infos:before {
+  
+        height: 30%;
+        left: 0;
+        top: 0;
+    
+       
+      }
 }
